@@ -1,4 +1,5 @@
-# 📝 FastAPI Notes Management API
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=📝+FastAPI+Notes+Management+API)](https://git.io/typing-svg)
+
 
 ## 📌 Описание
 
