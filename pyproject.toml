@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "notesfastapi"
+version = "0.1.0"
+description = ""
+authors = ["Churilov Evgeny <i@churilovevgeny.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.2"
+uvicorn = "^0.32.0"
+motor = "^3.6.0"
+bcrypt = "4.0.1"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pydantic = {extras = ["email"], version = "^2.9.2"}
+pyjwt = "^2.9.0"
+pydantic-settings = "^2.6.0"
+python-jose = "^3.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+coverage = "^7.6.3"
+mongomock-motor = "^0.0.34"
+pytest-httpx = "^0.32.0"
+black = "^24.10.0"
+pytest-asyncio = "^0.24.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
